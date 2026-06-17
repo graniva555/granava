@@ -2592,9 +2592,9 @@
 
     // ── Navbar ─────────────────────────────────────────────────────────────
     const NAV = [
-      { l: 'Home', p: '/', f: '/' }, { l: 'Products', p: '/products', f: '/products' },
-      { l: 'Markets', p: '/markets', f: '/markets' }, { l: 'About', p: '/about', f: '/about' },
-      { l: 'Contact', p: '/contact', f: '/contact' },
+      { l: 'Home', p: '/', f: '/' }, { l: 'Products', p: '/products', f: '/products/' },
+      { l: 'Markets', p: '/markets', f: '/markets/' }, { l: 'About', p: '/about', f: '/about/' },
+      { l: 'Contact', p: '/contact', f: '/contact/' },
     ];
 
     function Navbar({ route }) {
@@ -2667,7 +2667,7 @@
               </ul>
 
               {/* Desktop CTA */}
-              <a href="/contact" className="btn-gold navbar-cta">Get a Quote</a>
+              <a href="/contact/" className="btn-gold navbar-cta">Get a Quote</a>
 
               {/* Hamburger — mobile only */}
               <button
@@ -2720,7 +2720,7 @@
 
             {/* Bottom: CTA + contact */}
             <div className="nav-ov-bottom">
-              <a href="/contact" className="nav-ov-cta" onClick={close}
+              <a href="/contact/" className="nav-ov-cta" onClick={close}
                  tabIndex={open ? 0 : -1}>
                 Get a Quote →
               </a>
@@ -2771,7 +2771,7 @@
                   architects and developers worldwide.
                 </p>
                 <div style={{ marginTop: 24, display: 'flex', gap: 12 }}>
-                  <a href="/contact" className="btn-gold" style={{ fontSize: 11, padding: '9px 18px' }}>Contact Us</a>
+                  <a href="/contact/" className="btn-gold" style={{ fontSize: 11, padding: '9px 18px' }}>Contact Us</a>
                 </div>
               </div>
               <div className="footer-col">
@@ -2781,12 +2781,12 @@
               <div className="footer-col">
                 <h4>Products</h4>
                 <ul>
-                  <li><a href="/products">Black Galaxy Granite</a></li>
-                  <li><a href="/products">Black Pearl Granite</a></li>
-                  <li><a href="/products">Steel Gray Granite</a></li>
-                  <li><a href="/products">Jet Black Granite</a></li>
-                  <li><a href="/contact">Request Sample</a></li>
-                  <li><a href="/contact">Get Pricing</a></li>
+                  <li><a href="/products/black-galaxy/">Black Galaxy Granite</a></li>
+                  <li><a href="/products/black-pearl/">Black Pearl Granite</a></li>
+                  <li><a href="/products/steel-gray/">Steel Gray Granite</a></li>
+                  <li><a href="/products/jet-black/">Jet Black Granite</a></li>
+                  <li><a href="/contact/">Request Sample</a></li>
+                  <li><a href="/contact/">Get Pricing</a></li>
                 </ul>
               </div>
               <div className="footer-col">
@@ -2813,7 +2813,7 @@
                 <span className="fm-brand-name">GRANAVA</span>
                 <span className="fm-brand-tag">Natural Granite</span>
                 <p>Premium granite exported directly from India's finest quarries to the world.</p>
-                <a href="/contact" className="btn-gold">Get a Quote →</a>
+                <a href="/contact/" className="btn-gold">Get a Quote →</a>
               </div>
 
               {/* Contact strip */}
@@ -2845,11 +2845,11 @@
                 <details>
                   <summary>Our Products</summary>
                   <ul>
-                    <li><a href="/products">Black Galaxy Granite</a></li>
-                    <li><a href="/products">Black Pearl Granite</a></li>
-                    <li><a href="/products">Steel Gray Granite</a></li>
-                    <li><a href="/products">Jet Black Granite</a></li>
-                    <li><a href="/contact">Request a Sample</a></li>
+                    <li><a href="/products/black-galaxy/">Black Galaxy Granite</a></li>
+                    <li><a href="/products/black-pearl/">Black Pearl Granite</a></li>
+                    <li><a href="/products/steel-gray/">Steel Gray Granite</a></li>
+                    <li><a href="/products/jet-black/">Jet Black Granite</a></li>
+                    <li><a href="/contact/">Request a Sample</a></li>
                   </ul>
                 </details>
               </div>
@@ -2963,8 +2963,8 @@
                   across the UK, USA, UAE and East Asia.
                 </p>
                 <div className="h-fade d4 hero-cta-row">
-                  <a href="/products" className="btn-gold">Explore Collection →</a>
-                  <a href="/contact" className="btn-outline">Request a Quote</a>
+                  <a href="/products/" className="btn-gold">Explore Collection →</a>
+                  <a href="/contact/" className="btn-outline">Request a Quote</a>
                 </div>
                 <div className="hero-stats h-fade d5">
                   <div className="hero-stat">
@@ -3006,7 +3006,7 @@
                     <h2 className="display-md" style={{ marginTop:10, marginBottom:0 }}>Three Stones.</h2>
                     <h2 className="display-md" style={{ color:'var(--gold)', marginBottom:0, fontStyle:'italic' }}>Infinite Possibilities.</h2>
                   </div>
-                  <a href="/products" className="catalogue-link" style={{
+                  <a href="/products/" className="catalogue-link" style={{
                     fontFamily:'var(--font-sans)', fontSize:11, fontWeight:600,
                     letterSpacing:'0.14em', textTransform:'uppercase',
                     color:'var(--muted)', borderBottom:'1px solid var(--border)',
@@ -3095,7 +3095,7 @@
                       <em style={{ fontStyle:'italic', color:'var(--gold)' }}>Local Understanding.</em>
                     </h2>
                   </div>
-                  <a href="/markets" style={{
+                  <a href="/markets/" style={{
                     fontFamily:'var(--font-sans)', fontSize:11, fontWeight:600,
                     letterSpacing:'0.14em', textTransform:'uppercase',
                     color:'var(--muted)', borderBottom:'1px solid var(--border)',
@@ -3172,7 +3172,7 @@
                     Tell us your project requirements and receive a detailed price sheet with
                     sample availability by the next business day.
                   </p>
-                  <a href="/contact" className="btn-gold">Submit an Inquiry →</a>
+                  <a href="/contact/" className="btn-gold">Submit an Inquiry →</a>
                 </div>
               </FadeUp>
             </div>
@@ -3370,7 +3370,7 @@
                     <h3>Not sure which granite suits your project?</h3>
                     <p>Our export team will help you choose the right stone, finish, and specification.</p>
                   </div>
-                  <a href="/contact" className="btn-gold">Talk to Our Team →</a>
+                  <a href="/contact/" className="btn-gold">Talk to Our Team →</a>
                 </div>
               </FadeUp>
             </div>
@@ -3475,7 +3475,7 @@
                     <h3>Exporting to a region not listed here?</h3>
                     <p>We ship worldwide with full customs documentation. Tell us your destination.</p>
                   </div>
-                  <a href="/contact" className="btn-gold">Contact Our Export Team →</a>
+                  <a href="/contact/" className="btn-gold">Contact Our Export Team →</a>
                 </div>
               </FadeUp>
             </div>
