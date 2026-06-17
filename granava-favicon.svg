@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="#0d1526" rx="4"/>
+  <text x="16" y="21" text-anchor="middle"
+    font-family="'Josefin Sans','Century Gothic',Arial,sans-serif"
+    font-size="13" font-weight="300" fill="#c9a96e" letter-spacing="2"
+    shape-rendering="geometricPrecision">GR</text>
+</svg>

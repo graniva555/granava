@@ -1,0 +1,23 @@
+{
+  "name": "Granava \u2014 Natural Granite",
+  "short_name": "Granava",
+  "description": "Premium natural granite exporter from India",
+  "start_url": "/granava/",
+  "display": "standalone",
+  "background_color": "#07101e",
+  "theme_color": "#07101e",
+  "icons": [
+    {
+      "src": "granava-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "granava-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
